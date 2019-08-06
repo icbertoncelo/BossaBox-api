@@ -13,6 +13,7 @@ Esta é uma API para gerenciar ferramentas com seus respectivos links, descriç�
 docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
+- Crie um arquivo _.env_ para as variáveis ambiente para o ambiente de desenvolvimento e outro _.env.test_ para o ambiente de testes (checar _.env.example_)
 - Rode o projeto (checar scripts abaixo).
 
 ## Scripts
